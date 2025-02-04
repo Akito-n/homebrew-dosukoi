@@ -1,9 +1,9 @@
 class Dosukoi < Formula
   desc "A simple Docker container stopping tool"
   homepage "https://github.com/Akito-n/dosukoi"
-  url "https://github.com/Akito-n/dosukoi/releases/download/v0.1.1.1/dosukoi-mac.zip"
-  sha256 "820168c7ed22d69484f388f8b3844528f970b635b6cc8a77a246537a8f5dbb52"
-  version "0.1.1.1"
+  url "https://github.com/Akito-n/dosukoi/releases/download/v0.1.2/dosukoi-mac.zip"
+  sha256 "897046584d8d80ff311aae335843e43c92ce97f6514912ec1405bd907730d3426"
+  version "0.1.2"
 
   def install
     bin.install "dosukoi"
