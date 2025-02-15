@@ -7,7 +7,7 @@ class Dosukoi < Formula
 
   def install
     bin.install "dosukoi"
-    chmod 0755, bin/"dosukoi"
+    system "chmod", "755", bin/"dosukoi"
   end
 
 
