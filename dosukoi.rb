@@ -6,7 +6,7 @@ class Dosukoi < Formula
   version "0.2.1"
 
   def install
-    bin.install "dosukoi"
+    system "install", "-m", "0755", "dosukoi", bin/"dosukoi"
   end
 
   test do
