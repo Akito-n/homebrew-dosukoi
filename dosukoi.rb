@@ -3,14 +3,14 @@ class Dosukoi < Formula
   homepage "https://github.com/Akito-n/dosukoi"
 
   if Hardware::CPU.arm?
-    url "https://github.com/Akito-n/dosukoi/releases/download/v0.2.5/dosukoi-mac-arm64.zip"
-    sha256 "93f8f8130f658f3569abd8c9c2ea3488af48b8fe1e9a1d684cb4979684c2e976"
+    url "https://github.com/Akito-n/dosukoi/releases/download/v0.2.6/dosukoi-mac-arm64.zip"
+    sha256 "8885d9536219b357268da4b22d509a850b1be27c65bd7d0dfd0a1e5a09d28678"
   else
-    url "https://github.com/Akito-n/dosukoi/releases/download/v0.2.5/dosukoi-mac-x86_64.zip"
-    sha256 "44db648bf4cb84231a78c1ba00c2c46e0de2d2d816efea04ef8f823994665aa3"
+    url "https://github.com/Akito-n/dosukoi/releases/download/v0.2.6/dosukoi-mac-x86_64.zip"
+    sha256 "656e1c63532de2cec523871d1c025c996c4b58f26006b4c7c9b2319dba7b393d"
   end
 
-  version "0.2.5"
+  version "0.2.6"
 
   def install
     bin.install "dosukoi"
